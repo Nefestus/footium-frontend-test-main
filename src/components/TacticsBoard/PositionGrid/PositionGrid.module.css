@@ -1,0 +1,19 @@
+
+.rowContainer {
+  transform: perspective(1300px) rotateX(10deg) ;
+  display: block;
+  height: 105px;
+  width: 550px;
+}
+
+
+.cellContainer {
+  transform: perspective(1300px) rotateX(10deg) ;
+  display: inline-block;
+}
+
+.emptySlot {
+  transform: perspective(1300px) rotateX(10deg);
+  height: 105px;
+  width: 110px;
+}
