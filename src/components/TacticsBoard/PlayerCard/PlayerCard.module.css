@@ -1,9 +1,11 @@
 .container {
   height: 105px;
-  width: 130px;
+  transform: perspective(1300px) rotateX(10deg) translateY(-50px);
+  width: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: left;
 }
 
 .jersey {
