@@ -1,7 +1,14 @@
-.container {
+/* .container {
   height: 750px;
   display: flex;
   gap: 30px;
+} */
+
+.boardContainer {
+  height: 750px;
+  position: relative;
+  /* display: flex;
+  gap: 30px; */
 }
 
 .board {
@@ -10,6 +17,20 @@
   height: 100%;
 }
 
-.subsCol {
+.boundedArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700px;
   height: 100%;
+}
+
+.subsCol {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.gridContainer {
+  position: absolute;
 }
